@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	pb "k8s/pd"
+
 	//"github.com/shuza/kubernetes-go-grpc/pd"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"

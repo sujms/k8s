@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/gorilla/mux"
+	pb "k8s/pd"
+
 	//"github.com/shuza/kubernetes-go-grpc/pd"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"

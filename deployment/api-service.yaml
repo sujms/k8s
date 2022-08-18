@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: shuzasa/api-service:v1.0
+          image: sujms/api-service:v1.0
           ports:
             - name: api-service
               containerPort: 8080

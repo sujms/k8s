@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: add
-        image: shuzasa/add-service:v1.2
+        image: sujms/add-service:v1.2
         ports:
         - name: add-service
           containerPort: 3000
